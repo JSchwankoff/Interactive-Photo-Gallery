@@ -3,4 +3,4 @@ baguetteBox.run('.gallery', {
         return element.getElementsByTagName('img')[0].alt;
     }
 });
-const search = new Filter('search', 'data-caption');
+const search = new Filter('search', 'alt');
